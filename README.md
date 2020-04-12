@@ -2,7 +2,7 @@
 
 .NET Core application to manage posting (create, edit and delete) on Facebook Pages.
 
-# Requeriments
+# Requirements
 
 -   .NET Core 3.1
 
@@ -19,7 +19,7 @@
 
 # How to code this
 
-## Requeriments
+## Requirements
 
 -   .NET Core 3.1.
 -   Visual Studio IDE 2019.
