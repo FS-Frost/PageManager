@@ -17,6 +17,8 @@
 2. Open `config.json` and paste your [access token](https://developers.facebook.com/docs/graph-api/using-graph-api/#access-tokens).
 3. Start `PageManager.Gui.exe` and profit!
 
+More on the [Wiki](https://github.com/FS-Frost/PageManager/wiki/What-can-I-do%3F).
+
 # How to code this
 
 ## Requirements
