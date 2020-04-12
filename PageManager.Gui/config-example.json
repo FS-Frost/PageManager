@@ -1,0 +1,6 @@
+{
+  "accessToken": "my-access-token",
+  "dataLimit": 10,
+  "prettyJson": false,
+  "loadDataAtStartup": true
+}

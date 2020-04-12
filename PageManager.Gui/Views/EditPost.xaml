@@ -1,0 +1,70 @@
+﻿<Window
+    x:Class="PageManager.Gui.Views.EditPost"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:PageManager.Gui.Views"
+    mc:Ignorable="d"
+    Title="Editar publicación"
+    Height="330"
+    Width="549"
+    WindowState="Maximized"
+    WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button
+            x:Name="btnUpdate"
+            Content="Actualizar"
+            Margin="0,0,115,10"
+            VerticalAlignment="Bottom"
+            HorizontalAlignment="Right"
+            Width="100" />
+        <Button
+            x:Name="btnCancel"
+            Content="Volver"
+            Margin="0,0,10,10"
+            VerticalAlignment="Bottom"
+            VerticalContentAlignment="Bottom"
+            HorizontalAlignment="Right" />
+        <TextBox
+            x:Name="txtMessage"
+            Margin="10,46,10,165"
+            TextWrapping="Wrap"
+            Height="Auto"
+            AcceptsReturn="True"
+            AcceptsTab="True" />
+        <TextBox
+            x:Name="txtLink"
+            Margin="10,0,10,69"
+            TextWrapping="Wrap"
+            Height="55"
+            IsEnabled="false"
+            VerticalAlignment="Bottom" />
+        <Label
+            x:Name="lblLink"
+            Content="Enlace:"
+            HorizontalAlignment="Left"
+            Margin="10,0,0,129"
+            Padding="0,5,5,5"
+            Height="31"
+            VerticalAlignment="Bottom" />
+        <Label
+            x:Name="lblLink_Copy"
+            Content="Mensaje:"
+            HorizontalAlignment="Left"
+            Margin="10,10,0,0"
+            Padding="0,5,5,5"
+            Height="31"
+            VerticalAlignment="Top" />
+        <TextBlock
+            x:Name="textBlock"
+            Margin="10,0,10,45"
+            Text="No es posible editar el enlace tras la publicación."
+            TextWrapping="WrapWithOverflow"
+            FontSize="14"
+            Height="19"
+            FontStyle="Italic"
+            VerticalAlignment="Bottom" />
+
+    </Grid>
+</Window>
